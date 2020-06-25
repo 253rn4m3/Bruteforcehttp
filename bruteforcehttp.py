@@ -90,6 +90,7 @@ if (__name__ == "__main__"):
                 break
             if (status == 3):
                 print("Error Message Not Found, Check the given message")
+                break
             if (status == 4):
                 print("Error While Trying The Password: " + password)
         
